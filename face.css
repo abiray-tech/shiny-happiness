@@ -1,7 +1,13 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     text-align: center;
+    width:100%;
+    min-height: 1000vh;
     margin: 0;
     box-sizing:border-box;
     padding: 10px;
