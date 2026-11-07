@@ -2,15 +2,17 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+}
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     text-align: center;
     width:100%;
-    min-height: 1000vh;
+    min-height: 100vh;
     margin: 0;
     box-sizing:border-box;
     padding: 10px;
+    padding-top:40px;
 }
 .head {
     color:blue;
@@ -22,12 +24,16 @@ body {
     text-align: center;
 }
 .main {
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     max-width: 400%;
     margin: 20px auto;
     box-sizing: border-box;
     padding: 15px;
-    height: 50%;
+    height: 100vh;
     justify-content: center;
     border-radius:30px;
     border-color: blue;
@@ -37,28 +43,28 @@ body {
 input {
     padding: 10px;
     display: inline-block;
-    width: 42.2%;
+    width: 49.2%;
     border-radius:3px;
     border: 1px solid rgba(24, 1, 1, 0.3);
 }
 .number {
-    width: 95%;
+    width: 100%;
     display: grid;
     margin-bottom: 12px;
     margin-top: 12px;
 }
 .password {
-    width: 95%;
+    width: 100%;
 }
 .date {
-    width: 95%;
+    width: 100%;
 }
 button {
     display: inline-block;
     justify-content: space-around;
     text-align: center;
     padding: 10px;
-    width: 28%;
+    width: 27%;
     border-radius: 8px;
     border: 1px solid rgba(48, 5, 5, 0.7);
 }
